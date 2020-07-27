@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Sofia Pro Bold';
+  src: url('/fonts/SofiaPro-Bold.woff2') format('woff2'),
+  url('/fonts/SofiaPro-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro SemiBold';
+  src: url('/fonts/SofiaPro-SemiBold.woff2') format('woff2'),
+  url('/fonts/SofiaPro-SemiBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro Light';
+  src: url('/fonts/SofiaPro-Light.woff2') format('woff2'),
+  url('/fonts/SofiaPro-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/SofiaProRegular.woff2') format('woff2'),
+  url('/fonts/SofiaProRegular.Light') format('woff');
+}
+
+html, body {
+  font-family: 'Sofia Pro Light';
+}
+
+.sofia-semibold {
+  font-family: 'Sofia Pro SemiBold';
+}
+.sofia-bold {
+  font-family: 'Sofia Pro Bold';
+}
+.sofia-light {
+  font-family: 'Sofia Pro Light';
+}
+.sofia-regular {
+  font-family: 'Sofia Pro';
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media(min-width: 992px) {
+  .container {
+    width: 990px;
+  }
+}
